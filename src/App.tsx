@@ -1,10 +1,14 @@
-import { useState } from 'react';
-import reactLogo from './assets/react.svg';
-import viteLogo from '/vite.svg';
 import './App.css';
+import HeaderBar from './component/HeaderBar/HeaderBar';
+import RMCardComponent from './component/RMCard/RMCardComponent/RMCardComponent';
 
 function App() {
-  return <div></div>;
+  return (
+    <div>
+      <HeaderBar />
+      <RMCardComponent />
+    </div>
+  );
 }
 
 export default App;
